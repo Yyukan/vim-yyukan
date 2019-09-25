@@ -48,22 +48,4 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this linea
-let g:airline_powerline_fonts = 1 
-let g:solarized_termcolors=256
-let mapleader = ","
-
-let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
-let g:ctrlp_dotfiles = 1
-
-nmap <leader>ne :NERDTree<cr>
-
-syntax enable
-colorscheme solarized
-
-set background=dark
-set number
-
-set wildmode=longest,list,full
-set wildmenu
-set wildignore+=*/.hg/*,*/.svn/*,*/tmp/cache/*,*/target/*,*/.idea/*,*/.settings/*,*/test-output/*,*/.scala_dependencies,*.class
 
