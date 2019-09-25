@@ -45,9 +45,6 @@ if exists("+undofile")
   set undofile
 endif
 
-set title
-let &titleold=substitute(getcwd(), $HOME, "~", '')
-
 set autoread
 
 set ttyfast
@@ -63,8 +60,6 @@ set mouse=a
 
 " Use system clipboad by default
 set clipboard=unnamed
-
-set shortmess+=I
 
 " Line numbers
 set number
