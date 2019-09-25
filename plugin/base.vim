@@ -75,3 +75,5 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+" Highlight search results
+set hlsearch
