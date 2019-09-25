@@ -4,8 +4,8 @@ set -e
 
 mkdir -p ~/.vim/{bundle,colors}
 
-if ! [[ -d ~/.vim/bundle/vundle ]]; then
-  git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+if ! [[ -d ~/.vim/bundle/Vundle.vim ]]; then
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim	
 fi
 
 if ! [[ -d ~/.vim/bundle/vim-yyukan ]]; then
