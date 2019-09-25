@@ -1,2 +1,1 @@
-# vim-yyukan
-Vim Setup
+# Vim Setup
