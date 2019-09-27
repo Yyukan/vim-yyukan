@@ -50,5 +50,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this linea
 let g:airline_powerline_fonts = 1
 let g:solarized_termcolors=256
+let g:airline_section_z='%3p%% %l:%c'
 
 colorscheme solarized
